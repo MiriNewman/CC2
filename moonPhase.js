@@ -1,8 +1,7 @@
 const CANVAS_WIDTH = 800;
 const CANVAS_HEIGHT = 400;
 
-const ARRAY_SIZE = 50;
-
+const ARRAY_SIZE = 100; // these are for the stars
 var ranArrX = [ARRAY_SIZE];
 var ranArrY = [ARRAY_SIZE];
 var ranSize = [ARRAY_SIZE];
@@ -10,9 +9,7 @@ var ranSize = [ARRAY_SIZE];
 let counter = 0;
 let timer = 0;
 
-
-
-let waxing = true;
+let waxing = true; // !waxing == waning, right?
 
 function setup(){
 	createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
