@@ -70,7 +70,7 @@ function MoonPhase(centerX, centerY, radius, phase) {
 		}
 
 	if (waxing) {
-		if (phase<= 0.5){
+		if (phase <= 0.5){
 			rext = radius * (4/3);
 			lext = map(phase, 0, 0.5, rext, -rext);
 		} else {
@@ -87,6 +87,7 @@ function MoonPhase(centerX, centerY, radius, phase) {
 			lext = -radius * (4/3);
 		}
 	}
+
 	push();
 	translate(centerX, centerY)
 	fill(180 + phase);
