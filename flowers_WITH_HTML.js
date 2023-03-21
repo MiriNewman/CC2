@@ -21,7 +21,7 @@ function setup() {
 }
 
 function draw() {
-	background (140, 170, 130);
+	background (170, 200, 160);
 
 	// for (rn in roses){
 	// 	roses[rn].draw();
